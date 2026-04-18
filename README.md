@@ -8,3 +8,8 @@ def test_add():
     git add .
 git commit -m "Break test"
 git push
+def test_add():
+    assert add(2, 3) == 5
+    git add .
+git commit -m "Fix test"
+git push
